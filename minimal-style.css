@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: dark){
+    body {color:#fff;background:#000}
+    a:link {color:#9cf}
+    a:hover, a:visited:hover {color:#cef}
+    a:visited {color:#c9f}
+}
+body{
+    margin:1em auto;
+    max-width:40em;
+    padding:0 .62em;
+    font:1.2em/1.62 sans-serif;
+}
+h1,h2,h3 {
+    line-height:1.2;
+}
+p{
+    text-align: justify;
+}
+
+@media print{
+    body{
+        font-size: 14px;
+        margin: 80px;
+        max-width:none;
+    }
+    h1,h2,h3{
+        font-family: sans-serif;
+    }
+    p{
+        text-align: justify;
+        font-family: serif;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+pre{
+    color: #073642;
+    background-color: #eee8d5;
+    overflow: auto;
+    padding: 1em;
+}
+
+p code{
+    color: #073642;
+    background-color: #eee8d5;
+}
